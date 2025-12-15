@@ -4,24 +4,24 @@ const AboutSection = () => {
   const skills = [
     {
       category: 'Data Analysis',
-      items: ['SQL (MySQL)', 'Python (Pandas, NumPy)', 'Statistical Analysis', 'ETL Processes'],
+      items: ['SQL', 'Python', 'Statistical Analysis', 'ETL Processes','EDA','Performance Analysis','Risk Analytics'],
       icon: BarChart3
     },
     
     {//tyui
 
       category: 'Business Intelligence',
-      items: ['Power BI', 'Tableau', 'Dashboard Development', 'KPI Tracking'],
+      items: ['Power BI', 'Tableau', 'Dashboard Development', 'KPI Tracking','Data Validation','Dashboard Reporting','Factsheet Reporting'],
       icon: Database
     },
     {
       category: 'Machine Learning',
-      items: ['Predictive Modeling', 'Regression Analysis', 'Feature Engineering', 'Scikit-learn'],
+      items: ['Predictive Modeling', 'Regression Analysis', 'Feature Engineering', 'Scikit-learn','Time-Series Analysis'],
       icon: Brain
     },
     {
       category: 'Data Support Tools',
-      items: ['Microsoft Excel', 'Google Sheets', 'Lucidchart', 'Figma', 'Git'],
+      items: ['Microsoft Excel', 'Google Sheets', 'Google Colab', 'Jupyter', 'Git'],
       icon: Code
     },
     {
