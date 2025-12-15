@@ -205,7 +205,7 @@ const HeroSection = () => {
 >
   <img 
     src={`${process.env.PUBLIC_URL}/1.jpg`}
-    alt="Mohammed Dilshad M" 
+    alt="Mohd Sabir Shaikh" 
     className="w-full h-full object-cover object-center"
   />
 </motion.div>
@@ -271,7 +271,7 @@ const HeroSection = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
             >
-              {"Mohammed Dilshad M".split("").map((char, index) => (
+              {"Mohd Sabir Shaikh".split("").map((char, index) => (
                 <motion.span
                   key={index}
                   initial={{ y: 50, opacity: 0, rotateX: -90 }}
@@ -383,9 +383,9 @@ const HeroSection = () => {
             } mb-6 sm:mb-10 max-w-6xl mx-auto px-2`}
           >
             {[
-              { icon: <Phone className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "+91 9562277478", href: "tel:+919562277478", color: "from-green-500 to-emerald-600" },
-              { icon: <Mail className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "mdilshad7478@gmail.com", href: "mailto:mdilshad7478@gmail.com", color: "from-red-500 to-pink-600" },
-              { icon: <MapPin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Malappuram, Kerala", href: null, color: "from-blue-500 to-indigo-600" }
+              { icon: <Phone className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "+91 9892086916", href: "tel:+919892086916", color: "from-green-500 to-emerald-600" },
+              { icon: <Mail className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "smsabir12@gmail.com", href: "mailto:smsabir12@gmail.com", color: "from-red-500 to-pink-600" },
+              { icon: <MapPin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Hyderabad, India", href: null, color: "from-blue-500 to-indigo-600" }
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -451,9 +451,9 @@ const HeroSection = () => {
             } justify-center max-w-4xl mx-auto mb-8 sm:mb-12 px-2`}
           >
             {[
-              { icon: <Linkedin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "LinkedIn", shortText: "LI", color: "from-blue-600 to-blue-700", href: "https://www.linkedin.com/in/mohammed-dilshad-m/" },
-              { icon: <Github className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "GitHub", shortText: "GH", color: "from-gray-800 to-gray-900", href: "https://github.com/mdilshad7478" },
-              { icon: <Download className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Resume", shortText: "CV", color: "from-indigo-600 to-purple-700", href: "/Mohammed Dilshad M -- Resume.pdf", download: true }
+              { icon: <Linkedin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "LinkedIn", shortText: "LI", color: "from-blue-600 to-blue-700", href: "https://www.linkedin.com/in/sabir1012" },
+              { icon: <Github className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "GitHub", shortText: "GH", color: "from-gray-800 to-gray-900", href: "https://github.com/MohdSabir12" },
+              { icon: <Download className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Resume", shortText: "CV", color: "from-indigo-600 to-purple-700", href: "Mohd-Sabir-Shaikh_Resume.pdf", download: true }
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -466,7 +466,7 @@ const HeroSection = () => {
                   href={item.href}
                   target={!item.download ? "_blank" : "_self"}
                   rel="noopener noreferrer"
-                  download={item.download ? "Mohammed Dilshad M -- Resume.pdf" : null}
+                  download={item.download ? "Mohd-Sabir-Shaikh_Resume.pdf" : null}
                   className={`group relative bg-gradient-to-r ${item.color} text-white ${
                     isSmallMobile ? 'px-3 py-2 text-xs' : 'px-4 sm:px-6 py-3 text-sm sm:text-base'
                   } rounded-xl font-semibold transition-all duration-300 flex items-center justify-center ${
