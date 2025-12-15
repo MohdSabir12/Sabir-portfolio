@@ -5,7 +5,7 @@ const ExperienceSection = () => {
     {
       title: 'Senior Data Analyst',
       company: 'SS&C Technologies, Hyderabad - India',
-      period: 'March 2023 -- Current,
+      period: 'March 2023 -- Current',
       technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling','SS&C Sightline','Adobe Acrobat'],
       achievements: [
         'Analyzed and managed large-scale financial datasets to support fund accounting, NAV reporting, risk analytics, and regulatory compliance',
