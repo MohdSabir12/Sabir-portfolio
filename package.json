@@ -1,10 +1,10 @@
 
 
 {
-  "name": "babu-portfolio",
+  "name": "Sabir-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mdilshad7478.github.io/Portfolio",
+  "homepage": "https://MohdSabir12.github.io/Sabir-portfolio",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
