@@ -3,66 +3,69 @@ import { Calendar, Award } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: 'Business Analyst',
-      company: 'Interval, Calicut - India',
-      period: 'Jul 2024 -- Mar 2025',
-      technologies: ['Power BI', 'MySQL', 'Excel','Python', 'ETL', 'Data Modeling'],
+      title: 'Senior Data Analyst',
+      company: 'SS&C Technologies, Hyderabad - India',
+      period: 'March 2023 -- Current,
+      technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling','SS&C Sightline','Adobe Acrobat'],
       achievements: [
-        'Designed and implemented optimized data pipelines, improving data accuracy by 30% and reducing processing time by 25%',
-        'Developed interactive Power BI dashboards that provided real-time business insights, adopted by executive leadership for strategic decision-making',
-        'Standardized data structures across multiple sources, enabling cross-functional analysis and reporting',
-        'Collaborated with stakeholders to define KPIs and metrics that aligned with business objectives',
-        'Performed regular KPI analysis and sales forecasting to support operational planning and performance reviews',
-  'Conducted competitor benchmarking and SWOT analysis to support the company’s expansion strategy into new cities, using data-backed insights to identify potential market-fit courses'
+        'Analyzed and managed large-scale financial datasets to support fund accounting, NAV reporting, risk analytics, and regulatory compliance',
+        'Automated monthly, quarterly, and annual financial reporting using Python and SQL, reducing manual workload by 40%',
+        'Developed ML-based predictive models to enhance risk scoring, anomaly detection, and reporting accuracy',
+        'Designed interactive Power BI and Tableau dashboards to visualize fund KPIs, expense trends, cashflows, and risk metrics',
+        'Built VBA tools and Python scripts for automated reconciliation, data validation, and performance reporting',
+        'Optimized SQL queries and data workflows, improving data retrieval speed and reducing processing delays',
+        'Supported client onboarding by building efficient data integration workflows and dynamic reporting templates',
+        'Collaborated with compliance teams to streamline regulatory filings and improve turnaround times for quarterly and year-end reports',
+        'Reduced the financial reporting cycle from 4 days to 1.5 days through Python-based automation',
+        'Improved data accuracy by 30% using optimized SQL pipelines and validation scripts',
+        'Automated 20+ manual workflows, saving over 100 hours per month across teams'
       ]
+
     },
     {
-      title: 'Summer Intern - Periodic Labour Force Survey (PLFS)',
-      company: 'National Sample Survey Office (NSSO), Srinagar - India',
-      period: 'Jun 2023 -- Aug 2023',
-      technologies: ['Statistical Analysis', 'Data Collection', 'Data Cleaning', 'Survey Methodology'],
+     title: 'Data Analyst'--'Senior Data Analyst',
+      company: 'Morningstar India, Navi Mumbai - India',
+      period: 'January 2019 -- March 2023',
+      technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling'],
       achievements: [
-        'Participated in the implementation of the Periodic Labour Force Survey (PLFS), a flagship national survey to assess employment and unemployment trends across India.',
-        'Conducted structured field data collection and revisits using NSSO’s official sampling methodology.',
-        'Assisted in cleaning and validating collected data to ensure consistency and accuracy before analysis.',
-        'Contributed to the statistical analysis of employment status relative to educational qualifications.',
-        'Supported the preparation of field reports to inform regional employment policy and planning.'
+        'Managed and processed large financial datasets to deliver actionable investment analytics and procurement insights',
+        'Performed statistical analysis, time-series modeling, and financial data validation using SQL and Excel',
+        'Built interactive dashboards for KPI tracking, performance trends, and procurement insights',
+        'Collaborated with DevOps teams to enhance internal data pipelines and optimize data storage systems',
+        'Conducted ad-hoc analyses to support senior stakeholders in data-driven decision-making',
+        'Led initiatives to improve data accuracy, consistency, and process efficiency',
+        'Implemented a Procurement Business Intelligence system adopted department-wide',
+        'Reduced manual reporting efforts by 30% using VBA automation',
+        'Improved data accessibility by optimizing storage and retrieval processes'
       ]
     }
   ];
 
   const certifications = [
     {
-      name: 'Machine Learning Specialization',
-      issuer: 'Stanford Online',
-      date: '2023',
-      skills: ['Supervised Learning', 'Neural Networks', 'Model Evaluation']
+      name: 'Database & SQL for Data Science',
+      issuer: 'IBM',
+      date: '2020',
+      skills: ['SQL', 'Databases', 'Stored Procedures']
     },
     {
-      name: 'Microsoft Power BI Data Analyst',
-      issuer: 'Microsoft (Coursera)',
-      date: '2023',
-      skills: ['DAX', 'Data Modeling', 'Visualization Best Practices']
+      name: 'Python',
+      issuer: '365DataScience',
+      date: '2024',
+      skills: ['Python', 'Pandas', 'Numpy']
     },
     {
-      name: 'Data Analytics with Python',
-      issuer: 'NPTEL',
-      date: '2022',
-      skills: ['Pandas', 'NumPy', 'Exploratory Data Analysis']
+      name: 'Statistics',
+      issuer: '365DataScience',
+      date: '2024',
+      skills: ['Descriptive Statistics', 'Inferential Statistics', 'Probability']
     },
     {
-      name: 'PwC Power BI Job Simulation',
-      issuer: 'Forage',
-      date: '2023',
-      skills: ['Business Reporting', 'Dashboard Design', 'Client Requirements']
-    },
-    {
-      name: 'Accenture Data Analytics and Visualization - Job Simulation',
-      issuer: 'Forage',
-      date: '2023',
-      skills: ['Data Cleaning', 'Exploratory Data Analysis', 'Strategic Insight Presentation']
-    }
-  ];
+      name: 'Data Scientist',
+      issuer: '365DataScience',
+      date: 'Pursuing',
+      skills: ['Data Science', 'Machine Learning', 'Maths','AI']
+    };
 
   return (
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800">
