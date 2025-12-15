@@ -23,7 +23,7 @@ const ExperienceSection = () => {
 
     },
     {
-     title: 'Data Analyst'--'Senior Data Analyst',
+     title: 'Data Analyst -- Senior Data Analyst',
       company: 'Morningstar India, Navi Mumbai - India',
       period: 'January 2019 -- March 2023',
       technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling'],
@@ -65,7 +65,8 @@ const ExperienceSection = () => {
       issuer: '365DataScience',
       date: 'Pursuing',
       skills: ['Data Science', 'Machine Learning', 'Maths','AI']
-    };
+    }
+  ];
 
   return (
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800">
