@@ -43,18 +43,18 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-white border-l-4 border-blue-600 pl-4">About Me</h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Results-driven Data Analyst with expertise in transforming raw data into strategic insights.
-              With a strong foundation in statistics and hands-on experience in data analytics, I specialize in creating
-              data-driven solutions that enhance decision-making and operational efficiency.
+              I am a results-driven Data Analyst with a passion for turning raw data into actionable insights.
+              With a solid foundation in statistics and hands-on experience in data analytics, I help businesses make smarter,
+              data-backed decisions that improve efficiency and drive growth.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              My approach combines technical expertise with business acumen, enabling me to bridge the gap between data
-              and business strategy. I have successfully delivered analytics solutions across varous sectors including edtech, healthcare, quick-commerce, transportation, and retail, consistently driving measurable improvements.
-
+              My work blends technical expertise with business understanding, allowing me to bridge the gap between data and strategy.
+              I have delivered analytics solutions across diverse sectors—including edtech, healthcare, quick-commerce, transportation,
+              and retail—consistently creating measurable impact.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              I am passionate about leveraging analytics to solve real-world problems and drive sustainable business growth. I’m committed to continuous learning and actively explore new tools and methods to enhance my analytical capabilities.
-
+             Curious and committed to continuous learning, I enjoy exploring new tools, techniques, and approaches to solve real-world problems.
+             I thrive on turning complex data into clear, meaningful insights that support better decision-making and sustainable business success.
             </p>
             
             <div className="pt-4">
@@ -62,7 +62,7 @@ const AboutSection = () => {
               <div className="flex flex-wrap gap-2">
                 {[
                   'Data Visualization', 'Business Analytics', 'Predictive Modeling',
-                  'Data Pipeline Optimization', 'Dashboard Development', 'Statistical Analysis',
+                  'Data Analytics', 'Dashboard Development', 'Statistical Analysis',
                   'Requirements Gathering', 'Stakeholder Management'
                 ].map((tag) => (
                   <span key={tag} className="px-3 py-1.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-xs font-medium shadow-sm">
