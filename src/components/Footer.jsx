@@ -17,7 +17,7 @@ const Footer = () => {
               <Mail className="text-blue-400" size={24} />
             </div>
             <h4 className="font-medium mb-1">Email</h4>
-            <p className="text-gray-400 text-sm mb-4">mdilshad7478@gmail.com</p>
+            <p className="text-gray-400 text-sm mb-4">Smsabir12@gmail.com</p>
             <a
               href="mailto:mdilshad7478@gmail.com"
               className="inline-block mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all"
@@ -31,7 +31,7 @@ const Footer = () => {
               <Phone className="text-blue-400" size={24} />
             </div>
             <h4 className="font-medium mb-1">Phone</h4>
-            <p className="text-gray-400 text-sm mb-4">+91 9562277478</p>
+            <p className="text-gray-400 text-sm mb-4">+966 565272402 / +91 9562277478</p>
             <a
               href="tel:+919562277478"
               className="inline-block mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all"
@@ -45,9 +45,9 @@ const Footer = () => {
               <MapPin className="text-blue-400" size={24} />
             </div>
             <h4 className="font-medium mb-1">Location</h4>
-            <p className="text-gray-400 text-sm mb-4">Jeddah, Saudi Arabia</p>
+            <p className="text-gray-400 text-sm mb-4">Riyadh, Saudi Arabia</p>
             <a
-              href="https://www.google.com/maps/place/Jeddah,+SaudiArabia"
+              href="https://maps.app.goo.gl/arNnaLo7pTMK9RKn6"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all"
@@ -59,7 +59,7 @@ const Footer = () => {
         
         <div className="flex justify-center space-x-6 mb-8">
           <a
-            href="https://www.linkedin.com/in/mohammed-dilshad-m/"
+            href="https://www.linkedin.com/in/sabir1012"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-700 hover:bg-gray-600 p-3 rounded-full transition-colors hover:-translate-y-1 transform"
@@ -67,7 +67,7 @@ const Footer = () => {
             <Linkedin size={18} />
           </a>
           <a
-            href="https://github.com/mdilshad7478"
+            href="https://github.com/MohdSabir12"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-700 hover:bg-gray-600 p-3 rounded-full transition-colors hover:-translate-y-1 transform"
@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
         
         <div className="text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} Mohammed Dilshad M. All rights reserved.
+          © {new Date().getFullYear()} Mohd Sabir Shaikh All rights reserved.
         </div>
       </div>
     </footer>
