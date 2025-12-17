@@ -37,51 +37,7 @@ const ProjectsSection = () => {
       challenges: "The primary challenge was integrating multiple datasets with varying schemas and refresh patterns into a unified data model while maintaining dashboard performance. Designing efficient data relationships and optimizing DAX for interactivity required careful planning. Ensuring a smooth user experience across multiple report pages without real stakeholder feedback added complexity to the design process.",
       learnings: "This project enhanced my ability to build scalable BI dashboards aligned with business goals. I learned to structure efficient data models, design stakeholder-focused visuals, and apply Power BI performance tuning. It also strengthened my understanding of cross-functional KPIs and introduced me to advanced DAX techniques for handling large datasets smoothly."
     },
-    {
-      title: 'Healthcare ER Analytics',
-      subtitle: 'Patient Flow Optimization',
-      date: 'Jun 2024',
-      technologies: ['Power BI', 'MySQL', 'DAX', 'Python', 'ETL','Data Modelling'],
-      description: 'Developed an interactive Power BI dashboard to analyze emergency room (ER) operations and improve patient flow and resource allocation. The solution explored trends in patient wait times, satisfaction scores, referral patterns, and visit demographics to uncover operational inefficiencies and enhance care delivery.',
-      features: [
-        'Analyzed average wait times across different appointment types and time periods to identify bottlenecks',
-        'Investigated patient satisfaction trends by demographic segments to support quality improvement',
-        'Tracked monthly and yearly ER visits to uncover demand trends and inform staffing decisions',
-        'Explored referral vs. walk-in behavior to optimize departmental workflows',
-        'Created visual breakdowns of visits by age, race, and weektype to support inclusive care strategies',
-        'Identified gaps in feedback collection through “Service Not Rated” patterns'
-      ],
-      impact: "The insights provided by the dashboard could support hospital administrators in improving operational efficiency, reducing patient wait times, and enhancing overall patient experience. The project demonstrates how real-time analytics can optimize emergency department performance through data-driven decisions.",
-      gradient: "from-green-600 to-teal-600",
-      screenshots: [
-        `${process.env.PUBLIC_URL}/images/Patients ER Visit Dashboard.png`
-      ],
-      challenges: "The dataset contained missing values and inconsistent entries that required extensive data cleaning and validation. Creating a cohesive model with multiple categorical variables and time-based metrics also posed challenges in dashboard design and performance optimization.",
-      learnings: "This project deepened my understanding of healthcare analytics and operational KPIs in emergency services. I improved my skills in designing meaningful visuals for non-technical users and applied DAX to generate time-based insights. It also taught me how data visualization can directly support service quality improvements."
-    },
-    {
-      title: 'MSc Project: Flight Fare Prediction and Analysis',
-      subtitle: 'Machine Learning-Powered Travel Pricing Insights',
-      date: 'Dec 2023 - Mar 2024',
-      technologies: ['Python', 'Scikit-learn', 'XGBoost', 'Feature Engineering', 'Power BI', 'Flask'],
-      description: 'Developed a machine learning model to predict flight fares based on historical data and visualized insights through an interactive Power BI dashboard. The project enables users to explore pricing patterns, identify the best times to book, and understand key drivers influencing flight prices.',
-      features: [
-        'Performed end-to-end data preprocessing including cleaning, encoding, and feature engineering on flight data',
-        'Trained and compared multiple regression models (Random Forest, XGBoost, Ridge, Lasso etc) to predict airfare',
-        'Built a user-friendly Power BI dashboard with dynamic filters to display trends by airline, class, stops, and travel time',
-        'Identified optimal booking periods, cheapest and fastest airlines, and pricing variation by class and stopovers',
-        'Implemented automated data pipeline fetching latest fare data daily'
-      ],
-      impact: "The solution enhances decision-making for travelers by simplifying complex airfare data. It empowers users to reduce costs by understanding price trends and booking strategically. The dashboard also demonstrates how machine learning can improve transparency and planning in the travel sector.",
-      gradient: "from-purple-600 to-indigo-600",
-      screenshots: [
-        `${process.env.PUBLIC_URL}/images/Screenshot 2024-04-04 041740.png`,
-        `${process.env.PUBLIC_URL}/images/Screenshot 2024-04-04 034527.png`
-      ],
-      challenges: "Managing high variability in pricing due to external factors like holidays, seasons, and stopovers was a major challenge. Also, ensuring consistency across multiple categorical features required careful data wrangling and preprocessing.",
-      learnings: "This project improved my skills in supervised learning, model evaluation, and visual storytelling. I gained experience in comparing ML models and learned how to transform complex predictive insights into a clear, user-focused dashboard experience."
-    },
-    {
+      {
       title: 'AtliQ Hardware Sales Analytics',
       subtitle: 'Retail Sales & Performance Dashboard',
       date: 'Mar 2024',
@@ -100,53 +56,6 @@ const ProjectsSection = () => {
       ],
       challenges: "Handled messy data with duplicates, inconsistent currency formats, and null values requiring thorough cleansing and normalization. Integrated disparate regional datasets with varying quality and business rules into a cohesive analytics model. Ensured the dashboard performed efficiently despite complex joins and large volumes of data.",
       learnings: "Gained hands-on experience in ETL process, complex SQL querying, and designing star schema data models for retail analytics. Improved skills in transforming raw data into actionable sales insights and delivering user-friendly BI solutions tailored for non-technical stakeholders."
-    },
-    {
-      title: 'PwC Power BI Job Simulation',
-      subtitle: 'Virtual Internship – Business Intelligence Use Cases',
-      date: 'May 2024',
-      technologies: ['Power BI' , 'Power Query' , 'DAX' , 'Data Cleaning' , 'Data Modelling'],
-      description: 'Completed a structured, scenario-based Power BI virtual internship by PwC Switzerland through Forage. The simulation focused on building dashboards for different departments including Call Center Operations, Customer Retention, and Diversity & Inclusion, demonstrating how BI tools can drive operational and strategic decisions.',
-      features: [
-        'Task 1 : Call Center Analytics: Built KPIs for call volume, agent performance, answer speed, and customer satisfaction',
-        'Task 2 : Customer Retention: Created churn risk dashboard based on customer demographics and behavioral patterns',
-        'Task 3 : Diversity & Inclusion: Developed HR dashboard showcasing gender balance, promotions, and hiring diversity',
-        'Applied Power Query for data cleaning and DAX for KPI generation across three different business domains',
-        'Delivered stakeholder-ready reports aligning with real-world executive expectations'
-      ],
-      impact: "Demonstrated how data visualization can support strategic decision-making in customer operations and human resources. The dashboards highlighted process inefficiencies, helped in identifying churn risks, and provided transparency in diversity metrics.",
-      gradient: "from-red-600 to-pink-600",
-      screenshots: [
-        `${process.env.PUBLIC_URL}/images/Screenshot 2025-06-21 152737.png`,
-       `${process.env.PUBLIC_URL}/images/Screenshot 2025-06-21 153748.png`,
-       `${process.env.PUBLIC_URL}/images/Screenshot 2025-06-21 153821.png`,
-       `${process.env.PUBLIC_URL}/images/Screenshot 2025-06-21 153850.png`,
-       `${process.env.PUBLIC_URL}/images/Screenshot 2025-06-21 153912.png`,
-       `${process.env.PUBLIC_URL}/images/Screenshot 2025-06-21 153948.png`
-      ],
-      challenges: "Each dataset had unique formatting issues requiring domain-specific cleaning. Balancing visual clarity while serving different departments (support, retention, HR) required adaptive dashboard design.",
-      learnings: "This project improved my ability to translate business questions into data-driven dashboards. I also learned to design visuals tailored to different stakeholders—agents, managers, and executives—while applying cross-domain BI principles."
-    },
-    {
-      title: 'Accenture Data Analytics and Visualization',
-      subtitle: 'Content Strategy Insights for Social Media Client',
-      date: 'May 2024',
-      technologies: ['Python', 'Linear Programming', 'Tableau', 'SQL', 'AWS Lambda'],
-      description: 'Simulated the role of a Data Analyst at Accenture to help a social media client understand user engagement and content performance. Worked with multiple datasets to identify top-performing content categories and usage trends, and delivered findings through a compelling PowerPoint presentation and dashboard.',
-      features: [
-        'Cleaned and modeled 3 datasets (Reactions, Content, Reaction Types) to build a unified analysis table',
-        'Identified the top 5 content categories based on reaction scores using Excel formulas like VLOOKUP, SUMIF, and PivotTables',
-        'Created interactive visualizations in Power BI to display content trends and peak engagement periods',
-        'Highlighted the month with the most user activity and explored content engagement by type and volume',
-        'Designed and delivered a professional PowerPoint presentation summarizing findings for internal stakeholders and the client'
-      ],
-      impact: "The project uncovered actionable insights that would allow the social media client to refine its content strategy, improve engagement rates, and prioritize high-performing content categories in preparation for IPO positioning.",
-      gradient: "from-emerald-600 to-cyan-600",
-      screenshots: [
-        `${process.env.PUBLIC_URL}/images/Accenture Dashboard.png`
-      ],
-      challenges: "Merging and cleaning inconsistent datasets across multiple sources while maintaining data integrity was a key challenge. Aligning content categories across tables and ensuring accurate aggregation required careful formula design and validation.",
-      learnings: "This simulation sharpened my skills in Excel-based data modeling, Power BI dashboard creation, and presentation storytelling. I also improved my ability to communicate technical insights to non-technical stakeholders through compelling visuals and summaries."
     }
   ];
 
