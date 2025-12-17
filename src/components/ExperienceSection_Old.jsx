@@ -6,6 +6,7 @@ const ExperienceSection = () => {
       title: 'Senior Data Analyst',
       company: 'SS&C Technologies, Hyderabad - India',
       period: 'Mar 2023 -- Current',
+      logo: '/public/ssc.png',
       technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling','SS&C Sightline','Adobe Acrobat'],
       achievements: [
         'Analyzed and managed large-scale financial datasets to support fund accounting, NAV reporting, risk analytics, and regulatory compliance',
@@ -20,12 +21,12 @@ const ExperienceSection = () => {
         'Improved data accuracy by 30% using optimized SQL pipelines and validation scripts',
         'Automated 20+ manual workflows, saving over 100 hours per month across teams'
       ]
-
     },
     {
-     title: 'Data Analyst -- Senior Data Analyst',
+      title: 'Data Analyst -- Senior Data Analyst',
       company: 'Morningstar India, Navi Mumbai - India',
       period: 'Jan 2019 -- Mar 2023',
+      logo: '/public/morningstar.png',
       technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling'],
       achievements: [
         'Managed and processed large financial datasets to deliver actionable investment analytics and procurement insights',
@@ -83,17 +84,27 @@ const ExperienceSection = () => {
             <div className="space-y-6">
               {experiences.map((exp, index) => (
                 <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4 gap-2">
-                    <div>
-                      <h4 className="text-xl font-bold text-gray-800 dark:text-white">{exp.title}</h4>
-                      <p className="text-blue-700 dark:text-blue-400 font-medium">{exp.company}</p>
+                  
+                  {/* Logo + Header */}
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4 gap-4">
+                    <div className="flex items-start gap-4">
+                      <img
+                        src={exp.logo}
+                        alt={exp.company}
+                        className="w-10 h-10 object-contain rounded-md bg-white shadow-sm"
+                      />
+                      <div>
+                        <h4 className="text-xl font-bold text-gray-800 dark:text-white">{exp.title}</h4>
+                        <p className="text-blue-700 dark:text-blue-400 font-medium">{exp.company}</p>
+                      </div>
                     </div>
-                    <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400 text-sm bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">
+                    <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400 text-sm bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full self-start">
                       <Calendar size={14} />
                       <span>{exp.period}</span>
                     </div>
                   </div>
-                  
+
+                  {/* Technologies */}
                   <div className="mb-4">
                     <div className="flex flex-wrap gap-2">
                       {exp.technologies.map((tech) => (
@@ -104,6 +115,7 @@ const ExperienceSection = () => {
                     </div>
                   </div>
                   
+                  {/* Achievements */}
                   <ul className="space-y-3">
                     {exp.achievements.map((achievement, i) => (
                       <li key={i} className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed flex items-start">

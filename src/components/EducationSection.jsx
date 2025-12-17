@@ -46,7 +46,7 @@ const EducationSection = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin size={16} className="text-blue-500" />
-                  <span>Kochi, Kerala</span>
+                  <span>Mumbai, India</span>
                 </div>
               </div>
               
@@ -66,7 +66,7 @@ const EducationSection = () => {
               <div className="mt-4">
                 <h4 className="font-medium text-gray-700 dark:text-gray-300 mb-2">Key Coursework:</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Statistical Inference', 'Machine Learning', 'Data Analysis', 'Probability Theory', 'Linear Algebra', 'Data Visualization'].map((course) => (
+                  {['Financial Technology', 'Accounting', 'Audit'].map((course) => (
                     <span key={course} className="px-3 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300 text-xs rounded-full">
                       {course}
                     </span>
@@ -77,7 +77,7 @@ const EducationSection = () => {
           </div>
         </motion.div>
 
-        {/* IIT Madras - Data Science */}
+        {/* Indian Institute of Technology, Madras - Data Science */}
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -94,13 +94,13 @@ const EducationSection = () => {
                 BS in Data Science and Applications
               </h3>
               <p className="text-blue-600 dark:text-blue-400 font-medium">
-                IIT Madras
+                Indian Institute of Technology, Madras
               </p>
               
               <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500 dark:text-gray-400 mt-3">
                 <div className="flex items-center gap-2">
                   <CalendarDays size={16} className="text-green-500" />
-                  <span>2023 – Present</span>
+                  <span>2025 – Present</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin size={16} className="text-green-500" />
@@ -112,7 +112,7 @@ const EducationSection = () => {
                 <div className="flex flex-wrap gap-4">
                   <div>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Degree</p>
-                    <p className="text-lg font-semibold text-gray-800 dark:text-white">BS (Bachelor of Science)</p>
+                    <p className="text-lg font-semibold text-gray-800 dark:text-white">BS in Data Science & Applications (Pursuing)</p>
                   </div>
                 </div>
               </div>

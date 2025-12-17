@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Github, MapPin, Download, ArrowDown, Sparkles, Code, Database, BarChart3 } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, MapPin, Download, ArrowDown, TrendingUp, Code, Database, BarChart3 } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { useState, useEffect } from 'react';
@@ -297,7 +297,7 @@ const HeroSection = () => {
             } flex items-center justify-center px-2 sm:px-4`}
           >
             <div className="relative">
-              <Sparkles className={`absolute ${
+              <TrendingUp className={`absolute ${
                 isSmallMobile ? '-top-1 -left-1 w-2 h-2' : '-top-2 -left-2 w-3 h-3 sm:w-4 sm:h-4'
               } text-yellow-400 animate-pulse`} />
               <TypeAnimation
@@ -308,7 +308,7 @@ const HeroSection = () => {
                   2000,
                   'Power BI Developer',
                   2000,
-                  'MIS Analyst',
+                  'Buisness Analyst',
                   2000,
                   'Data Visualization Expert',
                   2000
@@ -324,7 +324,7 @@ const HeroSection = () => {
                 }`}
                 cursor={true}
               />
-              <Sparkles className={`absolute ${
+              <TrendingUp className={`absolute ${
                 isSmallMobile ? '-bottom-1 -right-1 w-2 h-2' : '-bottom-2 -right-2 w-3 h-3 sm:w-4 sm:h-4'
               } text-blue-400 animate-pulse`} style={{ animationDelay: '1s' }} />
             </div>
@@ -383,9 +383,9 @@ const HeroSection = () => {
             } mb-6 sm:mb-10 max-w-6xl mx-auto px-2`}
           >
             {[
-              { icon: <Phone className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "+91 9892086916", href: "tel:+919892086916", color: "from-green-500 to-emerald-600" },
+              { icon: <Phone className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "+966 565272402", href: "tel:+966565272402", color: "from-green-500 to-emerald-600" },
               { icon: <Mail className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "smsabir12@gmail.com", href: "mailto:smsabir12@gmail.com", color: "from-red-500 to-pink-600" },
-              { icon: <MapPin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Hyderabad, India", href: null, color: "from-blue-500 to-indigo-600" }
+              { icon: <MapPin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Riyadh, Saudi Arabia", href: null, color: "from-blue-500 to-indigo-600" }
             ].map((item, index) => (
               <motion.div
                 key={index}
