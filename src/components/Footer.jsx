@@ -19,7 +19,7 @@ const Footer = () => {
             <h4 className="font-medium mb-1">Email</h4>
             <p className="text-gray-400 text-sm mb-4">Smsabir12@gmail.com</p>
             <a
-              href="mailto:mdilshad7478@gmail.com"
+              href="mailto:smsabir12@gmail.com"
               className="inline-block mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all"
             >
               Send Message
@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="font-medium mb-1">Phone</h4>
             <p className="text-gray-400 text-sm mb-4">+966 565272402</p>
             <a
-              href="tel:+919562277478"
+              href="tel:+966565272402"
               className="inline-block mt-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all"
             >
               Call Now
