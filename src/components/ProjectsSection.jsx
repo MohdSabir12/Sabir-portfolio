@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     {
       title: 'Blinkit 360° Business Intelligence',
       subtitle: 'QuickCommerce Analytics Platform',
-      date: 'Apr 2025',
+      date: 'December 2025',
       technologies: ['Power BI', 'MySQL(Workbench)', 'Data Modeling', 'Figma', 'ETL', 'DAX','ODBC'],
       description: 'Built a comprehensive business intelligence dashboard for a fast-paced quick-commerce environment inspired by Blinkit. The project simulates real-world data challenges across multiple domains, providing interactive insights into operations, sales, inventory, customer behavior, and marketing performance.',
       features: [
@@ -37,25 +37,27 @@ const ProjectsSection = () => {
       challenges: "The primary challenge was integrating multiple datasets with varying schemas and refresh patterns into a unified data model while maintaining dashboard performance. Designing efficient data relationships and optimizing DAX for interactivity required careful planning. Ensuring a smooth user experience across multiple report pages without real stakeholder feedback added complexity to the design process.",
       learnings: "This project enhanced my ability to build scalable BI dashboards aligned with business goals. I learned to structure efficient data models, design stakeholder-focused visuals, and apply Power BI performance tuning. It also strengthened my understanding of cross-functional KPIs and introduced me to advanced DAX techniques for handling large datasets smoothly."
     },
-      {
-      title: 'AtliQ Hardware Sales Analytics',
-      subtitle: 'Retail Sales & Performance Dashboard',
-      date: 'Mar 2024',
-      technologies: ['Power BI', 'MySQL' , 'SQL ETL' , 'Power Query' , 'DAX', 'Data Modeling'],
-      description: 'Designed and developed a comprehensive Power BI dashboard to analyze AtliQ Hardware’s sales across multiple regions in India. The project involved building a clean, integrated data model by extracting, transforming, and loading (ETL) sales data from MySQL databases, enabling better visibility into sales trends, regional performance, and product-level insights.',
+    {
+      title: 'Flight Fare Prediction and Analysis',
+      subtitle: 'Machine Learning-Powered Travel Pricing Insights',
+      date: 'November 2025',
+      technologies: ['Python', 'Scikit-learn', 'XGBoost', 'Feature Engineering', 'Power BI', 'Flask'],
+      description: 'Developed a machine learning model to predict flight fares based on historical data and visualized insights through an interactive Power BI dashboard. The project enables users to explore pricing patterns, identify the best times to book, and understand key drivers influencing flight prices.',
       features: [
-        'Built clean, integrated star schema data model from multiple raw datasets using SQL and Power Query',
-        'Converted USD currency data to INR for accurate financial analysis reflecting India-only operations',
-        'Developed interactive Power BI reports with drill-downs for regional, product, and time-based sales analysis',
-        'Enabled real-time insights into quarterly growth, regional performance gaps, and inventory trends'
+        'Performed end-to-end data preprocessing including cleaning, encoding, and feature engineering on flight data',
+        'Trained and compared multiple regression models (Random Forest, XGBoost, Ridge, Lasso etc) to predict airfare',
+        'Built a user-friendly Power BI dashboard with dynamic filters to display trends by airline, class, stops, and travel time',
+        'Identified optimal booking periods, cheapest and fastest airlines, and pricing variation by class and stopovers',
+        'Implemented automated data pipeline fetching latest fare data daily'
       ],
-      impact: "The dashboard replaced manual, verbal reporting and Excel-based analyses, providing the sales management team with accurate, timely insights to make data-driven decisions. The solution is expected to contribute to at least 7% revenue growth by uncovering hidden sales issues and optimizing inventory and regional sales strategies.",
-      gradient: "from-amber-600 to-orange-600",
+      impact: "The solution enhances decision-making for travelers by simplifying complex airfare data. It empowers users to reduce costs by understanding price trends and booking strategically. The dashboard also demonstrates how machine learning can improve transparency and planning in the travel sector.",
+      gradient: "from-purple-600 to-indigo-600",
       screenshots: [
-        `${process.env.PUBLIC_URL}/images/Sales Insights Dashboard.png`
+        `${process.env.PUBLIC_URL}/images/Screenshot 2024-04-04 041740.png`,
+        `${process.env.PUBLIC_URL}/images/Screenshot 2024-04-04 034527.png`
       ],
-      challenges: "Handled messy data with duplicates, inconsistent currency formats, and null values requiring thorough cleansing and normalization. Integrated disparate regional datasets with varying quality and business rules into a cohesive analytics model. Ensured the dashboard performed efficiently despite complex joins and large volumes of data.",
-      learnings: "Gained hands-on experience in ETL process, complex SQL querying, and designing star schema data models for retail analytics. Improved skills in transforming raw data into actionable sales insights and delivering user-friendly BI solutions tailored for non-technical stakeholders."
+      challenges: "Managing high variability in pricing due to external factors like holidays, seasons, and stopovers was a major challenge. Also, ensuring consistency across multiple categorical features required careful data wrangling and preprocessing.",
+      learnings: "This project improved my skills in supervised learning, model evaluation, and visual storytelling. I gained experience in comparing ML models and learned how to transform complex predictive insights into a clear, user-focused dashboard experience."
     }
   ];
 
