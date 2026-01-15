@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sabir-portfolio/static/css/main.56209044.css",
+    "main.js": "/Sabir-portfolio/static/js/main.28dc8443.js",
+    "static/js/453.cc0a075d.chunk.js": "/Sabir-portfolio/static/js/453.cc0a075d.chunk.js",
+    "index.html": "/Sabir-portfolio/index.html",
+    "main.56209044.css.map": "/Sabir-portfolio/static/css/main.56209044.css.map",
+    "main.28dc8443.js.map": "/Sabir-portfolio/static/js/main.28dc8443.js.map",
+    "453.cc0a075d.chunk.js.map": "/Sabir-portfolio/static/js/453.cc0a075d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56209044.css",
+    "static/js/main.28dc8443.js"
+  ]
+}
