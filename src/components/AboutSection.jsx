@@ -11,7 +11,7 @@ const AboutSection = () => {
     {//tyui
 
       category: 'Business Intelligence',
-      items: ['Power BI', 'Tableau', 'Dashboard Development', 'KPI Tracking','Data Validation','Dashboard Reporting','Factsheet Reporting'],
+      items: ['Power BI', 'Tableau Developer','Dashboard Development', 'KPI Tracking','Data Validation','Dashboard Reporting','Factsheet Reporting'],
       icon: Database
     },
     {
@@ -21,7 +21,7 @@ const AboutSection = () => {
     },
     {
       category: 'Data Support Tools',
-      items: ['Microsoft Excel', 'Google Sheets', 'Google Colab', 'Jupyter', 'Git'],
+      items: ['Microsoft Excel', 'Google Sheets', 'Google Colab', 'Jupyter', 'Git','Jira','Confluence'],
       icon: Code
     },
     {
