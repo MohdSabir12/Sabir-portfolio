@@ -21,7 +21,7 @@ const AboutSection = () => {
     },
     {
       category: 'Data Support Tools',
-      items: ['Microsoft Excel', 'Google Sheets', 'Google Colab', 'Jupyter', 'Git','Jira','Confluence'],
+      items: ['Microsoft Excel', 'Google Sheets', 'Google Colab', 'Jupyter', 'Git','Jira','Confluence','AWS','Amazon Redshift'],
       icon: Code
     },
     {
@@ -63,7 +63,7 @@ const AboutSection = () => {
                 {[
                   'Data Visualization', 'Business Analytics', 'Predictive Modeling',
                   'Data Analytics', 'Dashboard Development', 'Statistical Analysis',
-                  'Requirements Gathering', 'Stakeholder Management'
+                  'Requirements Gathering', 'Stakeholder Management','Tableau Developer'
                 ].map((tag) => (
                   <span key={tag} className="px-3 py-1.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-xs font-medium shadow-sm">
                     {tag}

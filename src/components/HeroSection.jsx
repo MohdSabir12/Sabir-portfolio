@@ -385,7 +385,7 @@ const HeroSection = () => {
             {[
               { icon: <Phone className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "+91 9292086916", href: "tel:+919892086916", color: "from-green-500 to-emerald-600" },
               { icon: <Mail className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "smsabir12@gmail.com", href: "mailto:smsabir12@gmail.com", color: "from-red-500 to-pink-600" },
-              { icon: <MapPin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Hyderabad, India", href: null, color: "from-blue-500 to-indigo-600" }
+              { icon: <MapPin className={`${isSmallMobile ? 'w-3 h-3' : 'w-4 h-4 sm:w-5 sm:h-5'}`} />, text: "Riyadh, Saudi Arabia", href: null, color: "from-blue-500 to-indigo-600" }
             ].map((item, index) => (
               <motion.div
                 key={index}

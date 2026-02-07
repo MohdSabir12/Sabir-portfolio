@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-800">
         <Header activeSection={activeSection} setActiveSection={setActiveSection} />
         <HeroSection />
         <AboutSection />

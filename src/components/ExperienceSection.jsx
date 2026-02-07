@@ -2,10 +2,31 @@ import { Calendar, Award } from 'lucide-react';
 
 const ExperienceSection = () => {
   const experiences = [
+  {
+      title: 'Supervisor, Technical Business Analyst',
+      company: 'McDonald\'s Global Office',
+	  logo: '/logos/mcd.png',
+	  logoSize: 'h-12',
+      period: 'Jan 2026 -- Current',
+      technologies: ['Jira', 'Confluence', 'AWS','Amazon Redshift', 'ETL', 'Data Modeling','DBeaver','Tableau Deveopment','Tableau'],
+      achievements: [
+        'Lead stakeholder discussions to gather, analyze, and formalize reporting and analytics requirements into structured business cases',
+		'Translate business requirements into functional and technical specifications including FDS, source to target mappings, and data flow diagrams for BI and data engineering teams',
+		'Partner with data engineers to ensure data quality, integrity, and availability of datasets used for analytics and reporting',
+		'Design and develop end to end Tableau dashboards, from requirement definition and data modeling to visualization, testing, and deployment',
+		'Build optimized Tableau reports using calculated fields, parameters, and performance tuning to support large datasets and real time insights',
+		'Conduct data validation, unit testing, and UAT to ensure solutions meet business expectations before release',
+		'Manage user stories and backlog in JIRA and actively drive Agile ceremonies including sprint planning and reviews',
+		'Enable business teams through training and documentation to improve adoption of self service analytics'
+      ]
+
+    },
     {
       title: 'Senior Data Analyst',
       company: 'SS&C Technologies, Hyderabad - India',
-      period: 'Mar 2023 -- Current',
+	  logo: '/logos/ssnc.png',
+	  logoSize: 'h-14',
+      period: 'Mar 2023 -- Dec 2026',
       technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling','SS&C Sightline','Adobe Acrobat'],
       achievements: [
         'Analyzed and managed large-scale financial datasets to support fund accounting, NAV reporting, risk analytics, and regulatory compliance',
@@ -23,8 +44,10 @@ const ExperienceSection = () => {
 
     },
     {
-     title: 'Data Analyst -- Senior Data Analyst',
+     title: 'Data Analyst --> Senior Data Analyst',
       company: 'Morningstar India, Navi Mumbai - India',
+	  logo: '/logos/morningstar.png',
+	  logoSize: 'h-20',
       period: 'Jan 2019 -- Mar 2023',
       technologies: ['Power BI', 'Ms SQL', 'Excel','Python', 'ETL', 'Data Modeling'],
       achievements: [
@@ -70,29 +93,46 @@ const ExperienceSection = () => {
 
   return (
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="max-w-7xl mx-auto px-5">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-3">Professional Experience</h2>
           <div className="w-24 h-1.5 bg-gradient-to-r from-blue-500 to-blue-700 rounded-full mx-auto"></div>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {/* Work Experience */}
-          <div>
+          <div className="lg:col-span-2">
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-700">Work Experience</h3>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
                 <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4 gap-2">
-                    <div>
-                      <h4 className="text-xl font-bold text-gray-800 dark:text-white">{exp.title}</h4>
-                      <p className="text-blue-700 dark:text-blue-400 font-medium">{exp.company}</p>
-                    </div>
-                    <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400 text-sm bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">
-                      <Calendar size={14} />
-                      <span>{exp.period}</span>
-                    </div>
-                  </div>
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4 gap-3">
+					  {/* LEFT: logo + title */}
+					  <div className="mb-3">
+						  <img
+							src={process.env.PUBLIC_URL + exp.logo}
+							alt={exp.company}
+							className={`${exp.logoSize} object-contain mb-4`}
+						  />
+
+						  <h4 className="text-xl font-bold text-gray-800 dark:text-white">
+							{exp.title}
+						  </h4>
+
+						  <p className="text-blue-700 dark:text-blue-400 font-medium">
+							{exp.company}
+						  </p>
+						</div>
+
+
+
+					  {/* RIGHT: date */}
+					  <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400 text-sm bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">
+						<Calendar size={14} />
+						<span>{exp.period}</span>
+					  </div>
+					</div>
+
                   
                   <div className="mb-4">
                     <div className="flex flex-wrap gap-2">
@@ -118,7 +158,7 @@ const ExperienceSection = () => {
           </div>
 
           {/* Certifications */}
-          <div>
+          <div className="lg:col-span-1">
             <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6 pb-2 border-b border-gray-200 dark:border-gray-700">Certifications</h3>
             <div className="space-y-4">
               {certifications.map((cert, index) => (
